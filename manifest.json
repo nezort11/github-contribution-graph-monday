@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub contrib graph Monday",
+  "version": "1.0",
+  "description": " Make GitHub contribution calendar graph weeks start from Monday in Gregorian calendar (Russia).",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["./index.js"]
+    }
+  ]
+}
