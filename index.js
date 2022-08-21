@@ -37,10 +37,10 @@ sat.setAttribute("style", "");
 sun.setAttribute("style", "");
 
 // Move week day names
-sun.setAttribute("dy", 86);
 mon.setAttribute("dy", 9);
-tue.setAttribute("dy", 22);
-wed.setAttribute("dy", 35);
-thu.setAttribute("dy", 48);
-fri.setAttribute("dy", 61);
-sat.setAttribute("dy", 73);
+tue.setAttribute("dy", 9 + 13);
+wed.setAttribute("dy", 9 + 13 * 2);
+thu.setAttribute("dy", 9 + 13 * 3);
+fri.setAttribute("dy", 9 + 13 * 4);
+sat.setAttribute("dy", 9 + 13 * 5);
+sun.setAttribute("dy", 9 + 13 * 6);
